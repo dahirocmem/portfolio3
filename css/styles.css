@@ -5875,14 +5875,6 @@ background: -webkit-linear-gradient(#6868AC, #CF9893);
  text-align: center;
 }
 
-.section-home p{
-  font-family: "Poppins", sans-serif;
-}
-.section-home h3 {
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
 .welcome-text {
   margin-top: 20%;
 }
