@@ -1,4 +1,30 @@
 
+
 .card1{
    background-image: linear-gradient(#CF9893,#119DA4);
+}
+.navbar {
+   background: rgb(119,201,212);
+   background: linear-gradient(#CF9893,#119DA4);
+   
+}
+.navbar .nav-link {
+   font-size: 17px;
+   font-weight: 700;
+   font-family: "Poppins", sans-serif;
+   color: rgb(51, 44, 44);
+}
+.navbar .nav-link:hover {
+   color: rgb(252, 141, 141);
+}
+.navbar .nav-link.active {
+   color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+   color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+   color: rgb(204, 204, 204);
+   padding-top: 15%;
+   font-size: 23px;
 }
