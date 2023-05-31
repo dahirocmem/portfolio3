@@ -3,12 +3,35 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/periodic.css">
+        <link rel="stylesheet" href="css/periodic1.css">
+       
+        <link rel="icon" type="image/x-icon" href="images/logo.png">
         <title>Periodic Table</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <ul>
+            <li>
+                <a href="activity.html">Activity 3</a>
+            </li>
+            <li>
+                <a href="survey.html">Activity 2</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+        </ul>
         <table class="table1">
-            <h1>PERIODIC TABLE OF THE ELEMENTS</h1>
+            <thead>
+                <tr>
+                    <td colspan="3" class="erase"></td>
+                    <td colspan="14" class="title">PERIODIC TABLE OF THE ELEMENTS</td>
+                    <td colspan="3" class="erase"></td>
+                </tr>
+                <tr>
+                    <td colspan="19" class="none"></td>
+                </tr>
+            </thead>
             <thead>
                 <tr>
                     <td class="nonmetal">
@@ -19,7 +42,32 @@
                         <br>
                         <span class="namenon">Hydrogen</span>
                     </td>
-                    <td colspan="17" class="erase"></td>
+                    <td colspan="3" class="erase"></td>
+                    <!-- Description -->
+                    <td class="nonmetal1" colspan="2">
+                        <span class="atomicmassnon1">Atomic Number
+                                                &#8594</span>
+                        <br>
+                        <span class="symbolnon1">Atomic Symbol
+                                                &#8594</span>
+                        <br>
+                        <span class="namenon1">Atomic Name &#8594</span>
+                    </td>
+                    <!-- Description -->
+                    <td class="nonmetal">
+                        <span class="atomicnumnon">1</span>
+                        <span class="atomicmassnon">1.0078</span>
+                        <br>
+                        <span class="symbolnon">H</span>
+                        <br>
+                        <span class="namenon">Hydrogen</span>
+                    </td>
+                    <td class="nonmetal2" colspan="2">
+                        <span class="atomicmassnon1">&#8592 Atomic
+                                                Mass</span>
+                        <br>
+                    </td>
+                    <td colspan="9" class="erase"></td>
                     <td class="noblegases">
                         <span class="atomicnumgas">2</span>
                         <span class="atomicmassgas">4.0026</span>
@@ -986,45 +1034,41 @@
                         <span class="nameacti">Lawrencium</span>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="19" class="none"></td>
+                </tr>
             </tbody>
-        </table>
-        <div class="elementgroup">
-            <div class="column1">
-                <h3>
-                    <span class="alkali">&#9673;Alkali Metals</span>
-                </h3>
-                <h3>
-                    <span class="metalloids">&#9673;Metalloids</span>
-                </h3>
-                <h3>
-                    <span class="aactinides">&#9673;Actinides</span>
-                </h3>
-                <h3>
-                    <span class="llanthanides">&#9673;Lanthanides</span>
-                </h3>
-            </div>
-            <div class="column2">
-                <h3>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <span class="alkali">&#9673;Alkali Metals</span>
+                    </td>
+                    <td colspan="3">
+                        <span class="metalloids">&#9673;Metalloids</span>
+                    </td>
+                    <td colspan="2">
+                        <span class="aactinides">&#9673;Actinides</span>
+                    </td>
+                    <td colspan="3">
+                        <span class="llanthanides">&#9673;Lanthanides
+                    </span < /td>
+                                <td colspan="4">
                     <span class="alkaline">&#9673;Alkaline earth metals</span>
-                </h3>
-                <h3>
-                    <span class="reactive">&#9673;Reactive nonmetals</span>
-                </h3>
-                <h3>
-                    <span class="unknownn">&#9673;Unknown properties</span>
-                </h3>
-            </div>
-            <div class="column3">
-                <h3>
-                    <span class="transition">&#9673;Transition metals</span>
-                </h3>
-                <h3>
-                    <span class="noble">&#9673;Noble gases</span>
-                </h3>
-                <h3>
-                    <span class="post">&#9673;Post-transition metals</span>
-                </h3>
-            </div>
-        </div>
-    </body>
-</html>
+</td>
+<td colspan="4">
+    <span class="reactive">&#9673;Reactive nonmetals</span>
+</td>
+</tr>
+<td colspan="5">
+    <span class="unknownn">&#9673;Unknown properties</span>
+</td>
+<td colspan="3">
+    <span class="transition">&#9673;Transition metals</span>
+</td>
+<td colspan="3">
+    <span class="noble">&#9673;Noble gases</span>
+</td>
+<td colspan="4">
+    <span class="post">&#9673;Post-transition metals</span>
+</td>
+</tr></tfoot></table></body></html>
