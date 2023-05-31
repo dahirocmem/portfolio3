@@ -1,0 +1,97 @@
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.navbar {
+  background: rgb(119,201,212);
+  background: linear-gradient(#CF9893,#119DA4);
+  
+}
+.navbar .nav-link {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: rgb(51, 44, 44);
+}
+.navbar .nav-link:hover {
+  color: rgb(252, 141, 141);
+}
+.navbar .nav-link.active {
+  color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+  color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+  color: rgb(204, 204, 204);
+  padding-top: 15%;
+  font-size: 23px;
+}
+
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 100px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+div.gallery {
+    border: 50px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 50px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
